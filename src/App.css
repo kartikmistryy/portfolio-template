@@ -1,0 +1,40 @@
+* {
+    font-family: 'Inter';
+    /* font-family: 'SFUI'; */
+}
+
+#dash {
+    transition: all 0.3s ease-in-out;
+}
+
+#headline:hover #dash {
+    width: 300px;
+}
+
+#slider::-webkit-scrollbar {
+    display: none;
+}
+
+.marquee-content {
+    display: flex;
+    animation: scrolling 20s linear infinite;
+  }
+  
+  .marquee-item {
+    flex: 0 0 16vw;
+    margin: 0 1vw;
+  /*   flex: 0 0 20vw; */
+  /*   margin: 0 2vw; */
+  }
+  
+  .marquee-item img {
+    display: block;
+    width: 100%;
+  /*   padding: 0 20px; */
+  }
+  
+  @keyframes scrolling {
+    0% { transform: translateX(0); }
+    100% { transform: translatex(-144vw); }
+  }
+  
