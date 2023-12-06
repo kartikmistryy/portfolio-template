@@ -76,7 +76,7 @@ function About() {
     </div>
   
       <main className='max-w-[1300px] px-10 mx-auto mt-14 flex flex-col gap-5 text-[#ebebeb]'>
-        <h1 className='text-2xl leading-[160%]'>Hello there, <br />
+        {/* <h1 className='text-2xl leading-[160%]'>Hello there, <br />
           I'm Kartik Mistry a Frontend Developer & Designer based in Mumbai, India. Currently pursing my Bachelor's Degree in Computer Science.
           Always curious about human interactions, micro-animations, and crafting clean, captivating designs. So I am always spending my time building things that would elevate human interaction.
         </h1>
@@ -85,6 +85,17 @@ function About() {
 
         In the ever-evolving world of technology, I thrive on learning and growing. I am constantly seeking opportunities to broaden my skill set and embrace new technologies to stay ahead of the game.
         What sets me apart is my penchant for thinking outside the box. I take immense pleasure in brainstorming innovative ideas that not only look visually stunning but also serve a practical purpose for users.</h1>
+
+        <h1 className='text-2xl leading-[160%]'>
+          My tech stack includes a range of powerful technologies like HTML, CSS, ReactJS, TailwindCSS, Firebase, Framer Motion, and GitHub, empowering me to bring ideas to life and deliver exceptional user experiences. I am Currently looking for joining a team of skilled developers If you're looking for a frontend developer who's always eager to create something meaningful, let's connect and make magic happen! Together, we can bring your digital ideas to reality. Thanks for stopping by and feel free to reach out. 
+        </h1> */}
+
+
+        <h1 className='text-2xl leading-[160%] tracking-tight'>Hello there, <br />
+          I'm Kartik Mistry a Frontend Developer & Designer based in Mumbai, India. Currently pursing my Bachelor's Degree in Computer Science.
+          Always curious about human interactions, micro-animations, and crafting clean, captivating designs. So I am always spending my time building things that would elevate human interaction. 
+          In the ever-evolving world of technology, I thrive on learning and growing. I am constantly seeking opportunities to broaden my skill set and embrace new technologies to stay ahead of the game.
+         </h1>
 
         <h1 className='text-2xl leading-[160%]'>
           My tech stack includes a range of powerful technologies like HTML, CSS, ReactJS, TailwindCSS, Firebase, Framer Motion, and GitHub, empowering me to bring ideas to life and deliver exceptional user experiences. I am Currently looking for joining a team of skilled developers If you're looking for a frontend developer who's always eager to create something meaningful, let's connect and make magic happen! Together, we can bring your digital ideas to reality. Thanks for stopping by and feel free to reach out. 

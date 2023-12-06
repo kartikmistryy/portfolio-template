@@ -46,7 +46,60 @@ function Homepage() {
         <img src="https://images.pexels.com/photos/16069883/pexels-photo-16069883/free-photo-of-a-grand-canyon-in-unated-states-of-america.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" className="rounded-3xl object-contain"  />
 
         <img src="https://images.pexels.com/photos/12513116/pexels-photo-12513116.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" className="rounded-3xl object-contain mt-10"  />
-      </div>
+        </div>
+
+        <div className='max-w-[1400px] mx-auto py-20'>
+          <div className='flex flex-col'>
+            <p className='text-xl'>2023 / Real Time Application</p>
+            <h1 className='text-5xl font-semibold mt-8'>TheDailyScroll ~ Blog Application</h1>
+            <p className='text-xl font-normal mt-6'>A full-stack blog application made using ReactJS, TailwindCSS, Firebase</p>
+          </div>
+
+          <div className='flex flex-col my-10 gap-2'>
+            <div className='flex items-center justify-center bg-[#000] h-[90vh] w-full object-center rounded-2xl'>
+                <img src="https://yaosamo.com/images/work/case-two/item-4/img-1@2x.webp" className="h-full w-[90%]" />
+            </div>
+            <div className='flex items-center justify-center bg-[#000] h-[90vh] w-full object-center rounded-2xl'>
+                <img src="https://yaosamo.com/images/work/case-two/item-4/img-1@2x.webp" className="h-full w-[90%]" />
+            </div>
+            <div className='flex items-center justify-center bg-[#000] h-[90vh] w-full object-center rounded-2xl'>
+                <img src="https://yaosamo.com/images/work/case-two/item-4/img-1@2x.webp" className="h-full w-[90%]" />
+            </div>
+            <div className='flex items-center justify-center bg-[#000] h-[90vh] w-full object-center rounded-2xl'>
+                <img src="https://yaosamo.com/images/work/case-two/item-4/img-1@2x.webp" className="h-full w-[90%]" />
+            </div>
+            <div className='flex items-center justify-center bg-[#000] h-[90vh] w-full object-center rounded-2xl'>
+                <img src="https://yaosamo.com/images/work/case-two/item-4/img-1@2x.webp" className="h-full w-[90%]" />
+            </div>
+          </div>
+        </div>
+
+        <div className='max-w-[1400px] mx-auto py-20'>
+          <div className='flex flex-col'>
+            <p className='text-xl'>2023 / Desktop Application</p>
+            <h1 className='text-5xl font-semibold mt-8'>Notes Application</h1>
+            <p className='text-xl font-normal mt-6'>An application to read, write and create new notes</p>
+          </div>
+
+          <div className='flex flex-col my-10 gap-2'>
+            <div className='flex items-center justify-center bg-[#000] h-[90vh] w-full object-center rounded-2xl'>
+                <img src="https://yaosamo.com/images/work/case-two/item-4/img-1@2x.webp" className="h-full w-[90%]" />
+            </div>
+            <div className='flex items-center justify-center bg-[#000] h-[90vh] w-full object-center rounded-2xl'>
+                <img src="https://yaosamo.com/images/work/case-two/item-4/img-1@2x.webp" className="h-full w-[90%]" />
+            </div>
+            <div className='flex items-center justify-center bg-[#000] h-[90vh] w-full object-center rounded-2xl'>
+                <img src="https://yaosamo.com/images/work/case-two/item-4/img-1@2x.webp" className="h-full w-[90%]" />
+            </div>
+            <div className='flex items-center justify-center bg-[#000] h-[90vh] w-full object-center rounded-2xl'>
+                <img src="https://yaosamo.com/images/work/case-two/item-4/img-1@2x.webp" className="h-full w-[90%]" />
+            </div>
+            <div className='flex items-center justify-center bg-[#000] h-[90vh] w-full object-center rounded-2xl'>
+                <img src="https://yaosamo.com/images/work/case-two/item-4/img-1@2x.webp" className="h-full w-[90%]" />
+            </div>
+          </div>
+        </div>
+
     </div>
   )
 }
