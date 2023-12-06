@@ -1,81 +1,51 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function About() {
 
-  useEffect(() => {
-    setInterval(() => {
-      document.getElementById('slider').scrollLeft += 4
-    }, 100)
-  }, [])
 
   return (
     <div className='bg-[#040404] text-white h-screen py-24 overflow-x-hidden flex flex-col'>
 
       <div className='w-full max-w-[1300px] mx-auto mb-14'>
-        <a href='/' className='relative text-white text-xl rounded-full bg-[#0e0e0e] h-14 w-24 flex items-center justify-center'>
+        <Link to='/' className='relative text-white text-xl rounded-full bg-[#0e0e0e] h-14 w-24 flex items-center justify-center ml-4 lg:ml-0'>
           <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M872 474H286.9l350.2-304c5.6-4.9 2.2-14-5.2-14h-88.5c-3.9 0-7.6 1.4-10.5 3.9L155 487.8a31.96 31.96 0 0 0 0 48.3L535.1 866c1.5 1.3 3.3 2 5.2 2h91.5c7.4 0 10.8-9.2 5.2-14L286.9 550H872c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8z"></path></svg>
-        </a>
+        </Link>
       </div>
 
-      {/* <div id='slider' className='flex flex-row gap-10 overflow-x-hidden h-[400px] min-h-[400px] w-full scroll-smooth  mr-20'>
-        <img src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm"  />
-        <img src="https://yaosamo.com/images/about/designforfriends/d2@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm" />
-        <img src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm"  />
-        <img src="https://yaosamo.com/images/about/designforfriends/d2@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm" />
-        <img src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm"  />
-        <img src="https://yaosamo.com/images/about/designforfriends/d2@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm" />
-        <img src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm"  />
-        <img src="https://yaosamo.com/images/about/designforfriends/d2@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm" />
-        <img src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm"  />
-        <img src="https://yaosamo.com/images/about/designforfriends/d2@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm" />
-      </div> */}
-      
-      <div class="marquee">
-        <div class="marquee-content"> 
-          <div class="marquee-item">
-          <img src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm"  />
-          </div>
-          
-          <div class="marquee-item">
-          <img src="https://yaosamo.com/images/about/designforfriends/d2@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm" />
-          </div>
-          
-          <div class="marquee-item">
-          <img src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm"  />
-          </div>
-          
-          <div class="marquee-item">
-          <img src="https://yaosamo.com/images/about/designforfriends/d2@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm" />
-          </div>
-          
-          <div class="marquee-item">
-          <img src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm"  />
-          </div>
-          
-          <div class="marquee-item">
-          <img src="https://yaosamo.com/images/about/designforfriends/d2@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm" />
-          </div>
-          
-          <div class="marquee-item">
-          <img src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm"  />
-          </div>
-          
-          <div class="marquee-item">
-          <img src="https://yaosamo.com/images/about/designforfriends/d2@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm" />
+      <div className='max-w-[1200px] mx-auto'>
+        <div className='w-full grid lg:grid-cols-3 grid-cols-2 lg:gap-10 gap-4 mx-2'>
+          <div className='flex col-span-2 row-span-1 lg:max-h-[400px]  max-h-fit rounded-2xl'>
+            <img className='rounded-[40px] w-[95vw] lg:w-full' src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" alt="" />
           </div>
 
-          <div class="marquee-item">
-          <img src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm"  />
+          <div className='flex lg:max-h-[400px] rounded-2xl'>
+            <img className='rounded-[40px] w-[45vw] lg:w-full' src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" alt="" />
           </div>
 
-          <div class="marquee-item">
-          <img src="https://yaosamo.com/images/about/designforfriends/d2@2x.webp" className="h-[350px] w-[350px] min-h-[350px] min-w-[350px] rounded-sm" />
+          <div className='flex lg:max-h-[400px] max-w-[300px] rounded-full'>
+            <img className='rounded-[40px] w-[45vw] lg:w-full' src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" alt="" />
+          </div>
+
+          <div className='flex row-span-2 w-fit h-[40vh] lg:h-full'>
+            <img className='rounded-[40px] w-[45vw] lg:w-full' src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" alt="" />
+          </div>
+
+          <div className='flex lg:max-h-[300px] max-w-[400px]  w-full h-fit'>
+            <img className='rounded-[40px]  w-[45vw] lg:w-full' src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" alt="" />
+          </div>
+
+          <div className='flex lg:max-h-[300px] max-w-[300px]  w-fit h-fit'>
+            <img className='rounded-[40px]  w-[45vw] lg:w-full' src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" alt="" />
           </div>
         </div>
-    </div>
+      </div>
+
+      
+      
   
-      <main className='max-w-[1300px] px-10 mx-auto mt-14 flex flex-col gap-5 text-[#ebebeb]'>
+      <main className='max-w-[1300px] lg:px-10 px-4 mx-auto mt-14 flex flex-col gap-5 text-[#ebebeb]'>
         {/* <h1 className='text-2xl leading-[160%]'>Hello there, <br />
           I'm Kartik Mistry a Frontend Developer & Designer based in Mumbai, India. Currently pursing my Bachelor's Degree in Computer Science.
           Always curious about human interactions, micro-animations, and crafting clean, captivating designs. So I am always spending my time building things that would elevate human interaction.
@@ -91,13 +61,13 @@ function About() {
         </h1> */}
 
 
-        <h1 className='text-2xl leading-[160%] tracking-tight'>Hello there, <br />
+        <h1 className='lg:text-2xl text-xl leading-[160%] tracking-tight'>Hello there, <br />
           I'm Kartik Mistry a Frontend Developer & Designer based in Mumbai, India. Currently pursing my Bachelor's Degree in Computer Science.
           Always curious about human interactions, micro-animations, and crafting clean, captivating designs. So I am always spending my time building things that would elevate human interaction. 
           In the ever-evolving world of technology, I thrive on learning and growing. I am constantly seeking opportunities to broaden my skill set and embrace new technologies to stay ahead of the game.
          </h1>
 
-        <h1 className='text-2xl leading-[160%]'>
+        <h1 className='lg:text-2xl text-xl leading-[160%]'>
           My tech stack includes a range of powerful technologies like HTML, CSS, ReactJS, TailwindCSS, Firebase, Framer Motion, and GitHub, empowering me to bring ideas to life and deliver exceptional user experiences. I am Currently looking for joining a team of skilled developers If you're looking for a frontend developer who's always eager to create something meaningful, let's connect and make magic happen! Together, we can bring your digital ideas to reality. Thanks for stopping by and feel free to reach out. 
         </h1>
         

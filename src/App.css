@@ -11,9 +11,9 @@
     width: 300px;
 }
 
-#slider::-webkit-scrollbar {
-    display: none;
-}
+/* #slider::-webkit-scrollbar {
+    display: flex;
+} */
 
 .marquee-content {
     display: flex;
