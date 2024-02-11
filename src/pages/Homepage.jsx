@@ -117,41 +117,17 @@ function Homepage() {
 
           <div className='flex flex-col py-2 my-2 w-full max-w-[1400px] gap-4'>
 
-            <div className='flex flex-row items-center justify-start bg-[#0e0e0e] lg:py-6 py-4 px-4 rounded-md relative'>
+            <div className='flex flex-row items-center justify-start bg-[#0e0e0e] lg:py-4 py-2 px-4 rounded-md relative hover:scale-[1.005]'>
               <p className='lg:text-xl text-lg text-white ml-1'>Notes App</p>
               <p className='ml-3 text-base text-gray-300'> Note taking application</p>
-              <a href="#" className='bg-[#111111] p-2 rounded-full absolute right-5'>
+              <a href="#" className='bg-[#0e0e0e] p-2 rounded-full absolute right-5'>
               <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M869 487.8L491.2 159.9c-2.9-2.5-6.6-3.9-10.5-3.9h-88.5c-7.4 0-10.8 9.2-5.2 14l350.2 304H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h585.1L386.9 854c-5.6 4.9-2.2 14 5.2 14h91.5c1.9 0 3.8-.7 5.2-2L869 536.2a32.07 32.07 0 0 0 0-48.4z"></path></svg>
               </a>
-            </div>
-
-            <div className='flex flex-row items-center justify-start bg-[#0e0e0e] lg:py-6 py-4 px-4 rounded-md relative'>
-              <p className='lg:text-xl text-lg text-white ml-1'>Notes App</p>
-              <p className='ml-3 text-base text-gray-300'> Note taking application</p>
-              <a href="#" className='bg-[#111111] p-2 rounded-full absolute right-5'>
-              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M869 487.8L491.2 159.9c-2.9-2.5-6.6-3.9-10.5-3.9h-88.5c-7.4 0-10.8 9.2-5.2 14l350.2 304H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h585.1L386.9 854c-5.6 4.9-2.2 14 5.2 14h91.5c1.9 0 3.8-.7 5.2-2L869 536.2a32.07 32.07 0 0 0 0-48.4z"></path></svg>
-              </a>
-            </div>
-
-            <div className='flex flex-row items-center justify-start bg-[#0e0e0e] lg:py-6 py-4 px-4 rounded-md relative'>
-              <p className='lg:text-xl text-lg text-white ml-1'>Notes App</p>
-              <p className='ml-3 text-base text-gray-300'> Note taking application</p>
-              <a href="#" className='bg-[#111111] p-2 rounded-full absolute right-5'>
-              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M869 487.8L491.2 159.9c-2.9-2.5-6.6-3.9-10.5-3.9h-88.5c-7.4 0-10.8 9.2-5.2 14l350.2 304H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h585.1L386.9 854c-5.6 4.9-2.2 14 5.2 14h91.5c1.9 0 3.8-.7 5.2-2L869 536.2a32.07 32.07 0 0 0 0-48.4z"></path></svg>
-              </a>
-            </div>
-
-            <div className='flex flex-row items-center justify-start bg-[#0e0e0e] lg:py-6 py-4 px-4 rounded-md relative'>
-              <p className='lg:text-xl text-lg text-white ml-1'>Notes App</p>
-              <p className='ml-3 text-base text-gray-300'> Note taking application</p>
-              <a href="#" className='bg-[#111111] p-2 rounded-full absolute right-5'>
-              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M869 487.8L491.2 159.9c-2.9-2.5-6.6-3.9-10.5-3.9h-88.5c-7.4 0-10.8 9.2-5.2 14l350.2 304H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h585.1L386.9 854c-5.6 4.9-2.2 14 5.2 14h91.5c1.9 0 3.8-.7 5.2-2L869 536.2a32.07 32.07 0 0 0 0-48.4z"></path></svg>
-              </a>
-            </div>
+            </div> 
           </div>       
         </div>
 
-        <footer className='max-w-[1400px] mx-auto lg:py-20 py-10 lg:flex lg:items-center lg:justify-between flex flex-col items-start'>
+        <footer className='max-w-[1400px] mx-auto lg:py-20 py-10 lg:flex lg:items-center lg:justify-between flex flex-col lg:flex-row items-start'>
           <h1 className='lg:text-3xl p-4 text-xl font-normal lg:leading-[170%] leading-[130%] lg:max-w-[75%]'>Thanks for stopping by, I’m currently looking to join a new team of creative designers and developers. If you think we might be a good fit for one another you can reach out me via <a href="#" className='text-red-500 underline underline-offset-4'>message</a> or <a href="#" className='text-red-500 underline underline-offset-4'>email</a></h1>
 
           <div className='flex flex-col items-start justify-start gap-5 mt-10 px-4'>

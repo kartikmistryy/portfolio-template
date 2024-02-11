@@ -24,8 +24,12 @@ function About() {
             <img className='rounded-[40px] w-[45vw] lg:w-full' src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" alt="" />
           </div>
 
-          <div className='flex lg:max-h-[400px] max-w-[300px] rounded-full'>
+          <div className='flex lg:max-h-[400px] max-w-[400px] rounded-full'>
             <img className='rounded-[40px] w-[45vw] lg:w-full' src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" alt="" />
+          </div>
+
+          <div className='flex lg:max-h-[300px] max-w-[400px]  w-full h-fit'>
+            <img className='rounded-[40px]  w-[45vw] lg:w-full' src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" alt="" />
           </div>
 
           <div className='flex row-span-2 w-fit h-[40vh] lg:h-full'>
@@ -36,9 +40,9 @@ function About() {
             <img className='rounded-[40px]  w-[45vw] lg:w-full' src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" alt="" />
           </div>
 
-          <div className='flex lg:max-h-[300px] max-w-[300px]  w-fit h-fit'>
+          {/* <div className='flex lg:max-h-[300px] max-w-[300px]  w-fit h-fit'>
             <img className='rounded-[40px]  w-[45vw] lg:w-full' src="https://yaosamo.com/images/about/designforfriends/d4@2x.webp" alt="" />
-          </div>
+          </div> */}
         </div>
       </div>
 
